@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Bakery Website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!--! header section start-->
+    <h1 class="header">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="logo">
+        </a>
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#product">Product</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+        <div class="buttons">
+            <button id="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button id="cart-btn">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+            <button id="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        <div class="search-form">
+            <input type="text" class="search-input" id="search-box"
+            placeholder="search here">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/1menu-cookies.jpg" alt="menu">
+                <div class="content">
+                    <h3>cart item 01</h3>
+                    <div class="price">$4.99/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/1menu-donuts.jpg" alt="menu">
+                <div class="content">
+                    <h3>cart item 02</h3>
+                    <div class="price">$9.99/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/1menu-kruvasan.jpg" alt="menu">
+                <div class="content">
+                    <h3>cart item 03</h3>
+                    <div class="price">$6.99/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/1menu-macarons.jpg" alt="menu">
+                <div class="content">
+                    <h3>cart item 04</h3>
+                    <div class="price">$5.99/-</div>
+                </div>
+            </div>
+            <div><a href="#" class="btn">Checkout Now</a></div>
+        </div>
+    </h1>
+    <!--! header section end-->
+
+    <!--! home section start-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Freshly baked all day. Every day!</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio hic obcaecati magni perspiciatis incidunt dicta sapiente cum!
+            </p>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+
+    </section>
+    <!--! home section end-->
+
+    <!--! menu section start-->
+    <section class="menu" id="menu">
+        <h2 class="heading">OUR <span>MENU</span></h2>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/1menu-cookies.jpg" alt="menu">
+                    <span class="menu-category">Cookie</span>
+                    <h3>Chocolate Cookies</h3>
+                    <div class="price">$4.99 <span>7.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/1menu-macarons.jpg" alt="menu">
+                    <span class="menu-category">Macaron</span>
+                    <h3>Macarons</h3>
+                    <div class="price">$5.99 <span>9.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/1menu-donuts.jpg" alt="menu">
+                    <span class="menu-category">Donuts</span>
+                    <h3>Donuts</h3>
+                    <div class="price">$9.99 <span>14.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/1menu-kruvasan.jpg" alt="menu">
+                    <span class="menu-category">Croissant</span>
+                    <h3>Croissant</h3>
+                    <div class="price">$6.99 <span>9.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--! menu section end-->
+
+    <!--! product section start-->
+    <section class="product" id="product">
+        <h2 class="heading">OUR <span>PRODUCTS</span></h2>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">CAKE SLICE</span>
+                    <a href="#" class="name">Cocoa Cake</a>
+                    <div>
+                        <img src="images/product-1-kakaocake.jpg" alt="cake">
+                    </div>
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">$10.99</b>
+                        <span class="amount">1 Slice + 1 Coffee</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">CAKE SLICE</span>
+                    <a href="#" class="name">Berry Cake</a>
+                    <div>
+                        <img src="images/product-2-berrycake.jpg" alt="cake">
+                    </div>
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">$10.99</b>
+                        <span class="amount">1 Slice + 1 Coffee</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">CAKE SLICE</span>
+                    <a href="#" class="name">Walnut Cake</a>
+                    <div>
+                        <img src="images/product-3-walnutcake.jpg" alt="cake">
+                    </div>
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">$10.99</b>
+                        <span class="amount">1 Slice + 1 Coffee</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--! product section end-->
+
+    <!--! about section start-->
+    <section class="about" id="about">
+        <h2 class="heading">ABOUT <span>US</span></h2>
+        <div class="row">
+            <div class="image">
+                <img src="images/menu-cakes.jpg" alt="about">
+            </div>
+            <div class="content">
+                <h4>What Is The Secret Recipe Of Us?</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil iure sequi quasi. Est tempore delectus voluptates nesciunt.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, ex ipsam illo tenetur facilis voluptate voluptas laboriosam iusto impedit provident!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, autem dicta?</p>
+                <a href="#" class="btn-1">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!--! about section end-->
+
+    <!--! review section start-->
+    <section class="review" id="review">
+        <h2 class="heading">CUSTOMER'S <span>REVIEW</span></h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/quotes.png" alt="quote" class="quote">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, quae? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam laudantium nam dolores.</p>
+                <img src="images/avatar-1.jpg" alt="avatar" class="user">
+                <h5>Jennifer Cobber</h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/quotes.png" alt="quote" class="quote">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam laudantium nam dolores.</p>
+                <img src="images/avatar-2.jpg" alt="avatar" class="user">
+                <h5>Ella Homan</h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/quotes.png" alt="quote" class="quote">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam saepe nam quibusdam libero similique cupiditate quo eaque sunt unde. Alias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium dolorem, neque commodi fugiat explicabo libero delectus quaerat doloremque illum magni? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam laudantium nam dolores.</p>
+                <img src="images/avatar-3.jpg" alt="avatar" class="user">
+                <h5>Jake Phoenix</h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--! review section end-->
+
+    <!--! contact section start-->
+    <section class="contact" id="contact">
+        <h2 class="heading">CONTACT <span>US</span></h2>
+        <div class="row">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5249.077422350155!2d2.780339964422308!3d48.86700608347376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sdisneyland%20!5e0!3m2!1str!2str!4v1686494548948!5m2!1str!2str" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form class="form">
+                <h6>get in touch</h6>
+                <div class="inputBox">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="name">
+                </div>
+                <div class="inputBox">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="e-mail">
+                </div>
+                <div class="inputBox">
+                    <i class="fas fa-phone"></i>
+                    <input type="number" placeholder="number">
+                </div>
+                <input type="submit" class="btn" value="Contact Now">
+            </form>
+        </div>
+    </section>
+    <!--! contact section end-->
+
+    <!--! blog section start-->
+    <section class="blog" id="blogs">
+        <h2 class="heading">OUR <span>BLOGS</span></h2>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/howtomakecookies.jpg" alt="cookies">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">how to make cookies?</a>
+                    <span>11st June, 2023</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ratione!</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/howtomakecupcakes.jpg" alt="cupcakes">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">how to make cupcakes?</a>
+                    <span>10st June, 2023</span>
+                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, exercitationem.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/howtomakebreads.jpg" alt="breads">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">how to make puffed breads?</a>
+                    <span>9st June, 2023</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ratione!</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--! blog section end-->
+
+    <!--! footer section start-->
+    <section class="footer">
+        <div class="search">
+            <input type="text" class="search-input" placeholder="search"> 
+            <button class="btn btn-primary">Search</button>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-youtube"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-twitch"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+        <div class="links">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="product.html">Product</a>
+            <a href="review.html">Review</a>
+            <a href="contact.html">Contact</a>
+            <a href="blogs.html">Blogs</a>
+        </div>
+        <div class="credit">created by <span>Cemile Orhan</span> | all rights reserved</div>
+    </section>
+    <!--! footer section end-->
+
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
